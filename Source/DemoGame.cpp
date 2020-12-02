@@ -9,8 +9,8 @@ ws_handle_t wizard_spr;
 void start()
 {
     auto settings = ws_system_settings();
-    settings->screen.width = 1280;
-    settings->screen.height = 720;
+    settings->screen.width = 320;
+    settings->screen.height = 240;
     settings->screen.hidpi = true;
     settings->screen.vsync = false;
     settings->screen.title = "WynterStorm バナナ DemoGame";
