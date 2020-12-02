@@ -67,7 +67,7 @@ void render(double delta_time)
     double x_offset = sin(time);
     double y_offset = cos(time);
     ws_draw_sprite( slime_spr, 0, round(150.0f + x_offset * 10), round(90.0f  + y_offset * 10));
-    ws_draw_sprite( slime_spr, 0, 170.0f, 130.0f );
-    ws_draw_sprite( slime_spr, 0, 190.0f, 170.0f );
+    ws_draw_sprite( slime_spr, 1, 170.0f, 130.0f );
+    ws_draw_sprite( slime_spr, 2, 190.0f, 170.0f );
     ws_draw_sprite( wizard_spr, 0, round(60.0f + x_offset * 20.0f), 200.0f );
 }
